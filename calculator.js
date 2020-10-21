@@ -8,7 +8,7 @@ function calculate(){
     let secondNumber = document.getElementById("second").value
     let svar = document.getElementById("svar")
     console.log(firstNumber.typeof) 
-       
+
     switch(selected){
         case "+":            
         svar.innerText = eval(Number(firstNumber) + Number(secondNumber))
@@ -25,11 +25,8 @@ function calculate(){
         }
     }    
     function eraseContent(){
-        let selected = document.getElementById("selectValue").value = "+"
-        
-        let firstNumber = document.getElementById("first").value = ""
-        
-        
+        let selected = document.getElementById("selectValue").value = "+"        
+        let firstNumber = document.getElementById("first").value = ""                
         let secondNumber = document.getElementById("second").value = ""
         let svar = document.getElementById("svar").innerText = ""
 }
