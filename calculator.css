@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #B8E1FF;
+}
+.calculatorWrapper{
+    background-color: #82ABA1;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+input{
+    margin: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#svar{
+    margin-left: 3px;
+}

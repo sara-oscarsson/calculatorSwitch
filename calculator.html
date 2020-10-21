@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculato</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="/calculator.js" defer></script>
+</head>
+<body>
+    <div class="calculatorWrapper">
+        <h4>Miniräknare</h4>
+        <input type="text" id="first">
+        <select name="" id="selectValue" onchange="getSelectedValue()">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" id="second">
+        <button onclick="calculate()">=</button>
+        <div class="row">
+            <h5>Svar:</h5>
+            <div id="svar"></div>
+        </div>
+        <button onclick="eraseContent()">Rensa</button>      
+    </div>
+</body>
+</html>
